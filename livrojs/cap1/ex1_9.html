@@ -1,0 +1,24 @@
+<!-- exemplo de entrada, processamento e saída de dados
+ 
+  elaborar um programa que leia o valor de um jantar, calcule e informe o valor da taxa do garçom (10%) e o valor total a ser pago
+
+  valor do jantar: R$ 80
+  taxa do garçom: R$ 8
+  total: R$ 88
+
+  entrada de dados: ler número
+  processamento: calcular a soma
+  saída: informar a soma
+ -->
+
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<script>
+  var jantar = Number(prompt("Valor do jantar R$: "));
+
+  var garcom = jantar * 0.10;
+
+  var total = jantar + garcom;
+
+  alert("Taxa garçom R$: " + garcom.toFixed(2) + "\nTotal R$: " + total.toFixed(2));
+</script>
